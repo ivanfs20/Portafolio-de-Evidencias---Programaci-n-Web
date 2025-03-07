@@ -1,0 +1,114 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 20px; 
+    background-color: #af5151; 
+} 
+header, nav, main, aside, footer { 
+    margin-bottom: 20px; 
+    padding: 15px; 
+    background: #fff; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+} 
+header h1 { 
+    margin: 0; 
+} 
+
+section img{
+    border-radius: 25px;
+    width: 100%;
+}
+
+aside{
+    text-align: center;
+}
+
+table tr th {
+    color: white;
+    background-color: #af5151;
+}
+
+table tr td{
+    text-align: justify;
+}
+
+nav a { 
+    margin-right: 15px; 
+    text-decoration: none; 
+    color: #2980B9;
+    border-radius: 40px; 
+} 
+main section {
+  margin-bottom: 30px; 
+}
+
+p{
+    text-align: justify;
+}
+
+main{
+    border-radius: 30px;
+}
+
+form { 
+    display: flex; 
+    flex-direction: column; 
+} 
+form label { 
+    margin-top: 10px; 
+} 
+form input, form textarea { 
+    padding: 8px; 
+    margin-top: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+} 
+form button { 
+    margin-top: 15px; 
+    padding: 10px; 
+    background: #2980B9; 
+    color: #fff; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+} 
+
+section iframe {
+    width: auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#empiezaaqui{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+#empiezaaqui :hover {
+    font-family: monospace;
+    font-size: 20px;
+    color: #af5151;
+}
+
+
+.comentario { 
+    border-bottom: 1px solid #ccc; 
+    padding-bottom: 10px; 
+    margin-bottom: 10px; 
+} 
+.comentario:last-child { 
+    border-bottom: none; 
+} 
+aside { 
+    background: #e8f4f8; 
+    padding: 10px; 
+} 
+footer p { 
+    text-align: center; 
+    font-size: 0.9em; 
+    color: #555; 
+} 

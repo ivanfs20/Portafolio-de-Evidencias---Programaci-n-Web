@@ -1,0 +1,60 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+<head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="description" content="Guía turística de Ciudad Mendoza"> 
+  <meta name="keywords" content="Turismo, Mendoza, Guía"> 
+  <title>Guía Turística - Ciudad Mendoza Veracruz</title> 
+  <link rel="stylesheet" href="../CSS/estilos.css"> 
+
+  
+</head> 
+<body> 
+  <header> 
+    <h1>Gu&iacute;a Tur&iacute;stica de Ciudad Mendoza Veracruz</h1> 
+  </header> 
+  <nav> 
+    <a href="Blog_principal.html">Inicio</a> 
+    <a href="Entrada_Blog.html">Entradas</a> 
+    <a href="formulario.html">Formulario</a> 
+  </nav> 
+  <main> 
+    <section> 
+    <h2>Deja tu Comentario</h2> 
+    <form action="procesar_comentario.php" method="POST"> 
+        <label for="nombre">Nombre:</label> 
+        <input type="text" id="nombre" name="nombre" required> 
+         
+        <label for="email">Email:</label> 
+        <input type="email" id="email" name="email" required> 
+         
+        <label for="comentario">Comentario:</label> 
+        <textarea id="comentario" name="comentario" rows="5" required></textarea> 
+         
+        <button type="submit">Enviar Comentario</button> 
+    </form> 
+</section> 
+<section> 
+    <h2>Comentarios Recientes</h2> 
+    <div class="comentario"> 
+        <p><strong>Juan Pérez</strong> <em>01/03/2025</em></p> 
+        <p>Excelente guía turística, muy informativa y práctica. Me encantó la sección de 
+lugares de interés.</p> 
+    </div> 
+    <div class="comentario"> 
+        <p><strong>María García</strong> <em>28/02/2025</em></p> 
+        <p>Muy buen contenido, la información es muy útil para planificar mi próxima 
+visita a la ciudad.</p> 
+    </div> 
+    <!-- Se pueden agregar más comentarios aquí --> 
+</section>
+  </main> 
+  <aside> 
+    <p>CIUDAD MENDOZA ES UN GRAN LUGAR PARA VIVIR</p>
+  </aside> 
+  <footer> 
+    <p>&copy; 2025 Guía Turística de Ciudad Mendoza Veracruz. Todos los derechos reservados.</p> 
+  </footer> 
+</body> 
+</html> 
